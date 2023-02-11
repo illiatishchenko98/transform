@@ -1,0 +1,16 @@
+.scale {
+  display: inline-block;
+  overflow: hidden;
+}
+img {
+  display: block;
+}
+.photo:hover {
+  transform: scale(1.2);
+  transition: 1.2s;
+}
+body {
+  display: flex;
+  justify-content: center;
+  padding-top: 150px;
+}
